@@ -8,7 +8,7 @@ export async function loadPromptFormats() {
 
     for (const format of formats) {
         try {
-            const response = await fetch(`https://raw.githubusercontent.com/DenisSergeevitch/prompt-formats/formats/main/${format}.json`);
+            const response = await fetch(`https://raw.githubusercontent.com/DenisSergeevitch/prompt-formats/main/formats/${format}.json`);
             if (!response.ok) {
                 throw new Error(`Failed to load format: ${format}`);
             }
