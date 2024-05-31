@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Converter</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Prompt Converter</h1>
+    </header>
+    <main>
+        <div>
+            <label for="sourceFormat">Source Format:</label>
+            <select id="sourceFormat"></select>
+        </div>
+        <div>
+            <label for="targetFormat">Target Format:</label>
+            <select id="targetFormat"></select>
+        </div>
+        <div>
+            <label for="sourcePrompt">Source Prompt:</label>
+            <textarea id="sourcePrompt" rows="10" cols="50"></textarea>
+        </div>
+        <div>
+            <label for="targetPrompt">Target Prompt:</label>
+            <textarea id="targetPrompt" rows="10" cols="50" readonly></textarea>
+        </div>
+        <button id="convertButton">Convert</button>
+        <div id="error" class="error"></div>
+    </main>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
