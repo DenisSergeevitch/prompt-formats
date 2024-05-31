@@ -1,0 +1,11 @@
+{
+  "template": "<s>[INST] <<SYS>>\n{{prompt}}\n<</SYS>>\n\nTest Message [/INST] Test Successfull </s>{{history}}{{char}}",
+  "historyTemplate": "{{name}}: {{message}}",
+  "char": "Assistant",
+  "charMsgPrefix": "",
+  "charMsgSuffix": "</s>",
+  "user": "User",
+  "userMsgPrefix": "<s>[INST] ",
+  "userMsgSuffix": " [/INST]",
+  "stops": ""
+}

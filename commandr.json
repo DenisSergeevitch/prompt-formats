@@ -1,0 +1,11 @@
+{
+  "template": "<BOS_TOKEN><|START_OF_TURN_TOKEN|><|SYSTEM_TOKEN|>{{prompt}}\n<|END_OF_TURN_TOKEN|>{{history}}{{char}}",
+  "historyTemplate": "<|START_OF_TURN_TOKEN|><|{{name}}|> {{message}}",
+  "char": "CHATBOT_TOKEN",
+  "charMsgPrefix": "",
+  "charMsgSuffix": "",
+  "user": "USER_TOKEN",
+  "userMsgPrefix": "",
+  "userMsgSuffix": "<|END_OF_TURN_TOKEN|>",
+  "stops": ""
+}

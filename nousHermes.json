@@ -1,0 +1,11 @@
+{
+  "template": "### Instruction: {{prompt}}\n\n{{history}}\n\n{{char}}:",
+  "historyTemplate": "### {{name}}:\n{{message}}",
+  "char": "Response",
+  "charMsgPrefix": "",
+  "charMsgSuffix": "",
+  "user": "Input",
+  "userMsgPrefix": "",
+  "userMsgSuffix": "",
+  "stops": ""
+}

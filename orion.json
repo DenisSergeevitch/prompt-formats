@@ -1,0 +1,11 @@
+{
+  "template": "<s>Human: Test Message\n\nAssistant: </s>Test Successful</s>{{history}}{{char}}:",
+  "historyTemplate": "{{name}}: {{message}}",
+  "char": "Assistant </s>",
+  "charMsgPrefix": "",
+  "charMsgSuffix": "",
+  "user": "Human",
+  "userMsgPrefix": "",
+  "userMsgSuffix": "\n\n",
+  "stops": ""
+}

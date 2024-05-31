@@ -1,0 +1,11 @@
+{
+  "template": "<|system|>\n{{prompt}}</s>\n{{history}}{{char}}",
+  "historyTemplate": "<|{{name}}|>\n{{message}}</s>\n",
+  "char": "assistant",
+  "charMsgPrefix": "",
+  "charMsgSuffix": "",
+  "user": "user",
+  "userMsgPrefix": "",
+  "userMsgSuffix": "",
+  "stops": ""
+}

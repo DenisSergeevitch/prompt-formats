@@ -1,0 +1,11 @@
+{
+  "template": "{{history}}{{char}}",
+  "historyTemplate": "Math Correct {{name}}: {{message}}<|end_of_turn|>",
+  "char": "Assistant",
+  "charMsgPrefix": "",
+  "charMsgSuffix": "",
+  "user": "User",
+  "userMsgPrefix": "",
+  "userMsgSuffix": "",
+  "stops": ""
+}
